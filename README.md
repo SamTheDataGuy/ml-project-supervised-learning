@@ -15,6 +15,21 @@ The project will involve the following tasks:
 
 The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
 
+## EDA 
+
+- There are some zeros in Glucose, BloodPressure, and BMI.  These measurements can't be zero, so they will need to be converted before building the models
+
+- Insulin and SkinThickness both have many zeros, so these features will need to be removed
+
+- The distributions of those with diabetes are further to the right than those without diabetes for all features
+
+- Pregnancies, Glucose, Insulin, BMI, DiabetesPedigreeFunction, and Age are all noticeably correlated with Outcome
+
+- Pregnancies, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, and Age all have outliers that are much greater than the rest of the data points
+
+- Since this is a binary classification problem, the two models used will be Logistic Regression and Random Forest Classification
+
+
 ## Conclusions
 
 
